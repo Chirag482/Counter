@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Counter</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-heading">Enter Value Between 0 and 9</div>
+      <div class="header-body">
+        <div class="input">
+          <input
+            type="number"
+            id="number"
+            placeholder="Enter your number Here"
+          />
+        </div>
+        <div class="button">
+          <button onclick="startCounter()">Start</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="counter-back">
+      <div class="counter" style="height: 100px; width: 100px">
+        <p class="current">0</p>
+        <p class="next">1</p>
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
